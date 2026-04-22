@@ -1,0 +1,73 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Event;
+use Illuminate\Http\Request;
+
+class EventController extends Controller
+{
+    public function index()
+    {
+        $events = Event::with(['creator', 'certificates'])
+            ->latest()->paginate(12);
+        return view('faculty.events.index', compact('events'));
+    }
+
+    public function create()
+    {
+        return view('faculty.events.create');
+    }
+
+    public function store(Request $request)
+    {
+        $data = $request->validate([
+            'name'          => 'required|string|max:255',
+            'description'   => 'nullable|string',
+            'event_type'    => 'required|string',
+            'event_date'    => 'required|date',
+            'event_end_date'=> 'nullable|date|after_or_equal:event_date',
+            'venue'         => 'nullable|string|max:255',
+            'department'    => 'nullable|string|max:255',
+        ]);
+
+        Event::create([...$data, 'created_by' => auth()->id()]);
+
+        return redirect()->route('events.index')->with('success', 'Event created successfully!');
+    }
+
+    public function edit(Event $event)
+    {
+        $this->authorize('update', $event);
+        return view('faculty.events.edit', compact('event'));
+    }
+
+    public function update(Request $request, Event $event)
+    {
+        $this->authorize('update', $event);
+
+        $data = $request->validate([
+            'name'          => 'required|string|max:255',
+            'description'   => 'nullable|string',
+            'event_type'    => 'required|string',
+            'event_date'    => 'required|date',
+            'event_end_date'=> 'nullable|date',
+            'venue'         => 'nullable|string',
+            'department'    => 'nullable|string',
+            'status'        => 'required|in:active,completed,cancelled',
+        ]);
+
+        $event->update($data);
+        return redirect()->route('events.index')->with('success', 'Event updated!');
+    }
+
+    public function destroy(Event $event)
+    {
+        $this->authorize('delete', $event);
+        if ($event->certificates()->count() > 0) {
+            return back()->with('error', 'Cannot delete event with issued certificates.');
+        }
+        $event->delete();
+        return redirect()->route('events.index')->with('success', 'Event deleted.');
+    }
+}
