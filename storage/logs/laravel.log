@@ -6778,3 +6778,516 @@ Cjw8Ci9TaXplIDExCi9Sb290IDEwIDAgUgovSW5mbyA5IDAgUgo+PgpzdGFydHhyZWYKMjA0Mwol
 JUVPRgo=
 --GjNC12yt--
   
+[2026-05-22 09:01:04] local.INFO: Block #5 mined for certificate FARE-2026-83E9E958  
+[2026-05-22 09:01:04] local.DEBUG: From: CertChain - College Certificate System <your_email@gmail.com>
+To: Vinod <vinod123@gmail.com>
+Subject: Your Certificate - Farewell Awards
+MIME-Version: 1.0
+Date: Fri, 22 May 2026 09:01:04 +0530
+Message-ID: <aededad6fb73de723b91f337ea98d8b5@gmail.com>
+Content-Type: multipart/mixed; boundary=crJ07fjy
+
+--crJ07fjy
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.header { background: linear-gradient(135deg, #1a3a5c, #2a5298); padding: 32px; text-align: center; }
+.header h1 { color: #c9a84c; font-size: 28px; margin: 0; }
+.header p { color: rgba(255,255,255,.7); font-size: 13px; margin: 4px 0 0; }
+.body { padding: 32px; }
+.body h2 { color: #1a3a5c; margin-top: 0; }
+.info-box { background: #f8fafc; border-radius: 8px; padding: 16px; margin: 16px 0; }
+.info-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+.info-row:last-child { border: none; }
+.info-row .label { color: #6b7280; }
+.info-row .value { color: #111827; font-weight: 500; }
+.blockchain-badge { background: linear-gradient(135deg, #0f2139, #1a3a5c); color: white; border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-size: 12px; }
+.blockchain-badge .hash { font-family: monospace; color: #fbbf24; word-break: break-all; font-size: 11px; }
+.verify-btn { display: block; text-align: center; background: #1a3a5c; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 20px 0; }
+.footer { background: #f8fafc; padding: 16px 32px; text-align: center; font-size: 11px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>⛓ CertChain</h1>
+        <p>Blockchain Certificate System — Your College Name</p>
+    </div>
+    <div class="body">
+        <h2>Congratulations, Vinod! 🎉</h2>
+        <p style="color:#374151; font-size:14px; line-height:1.7;">
+            Your certificate for <strong>Farewell Awards</strong> has been successfully issued and recorded on our blockchain ledger. The PDF certificate is attached to this email.
+        </p>
+
+        <div class="info-box">
+            <div class="info-row"><span class="label">Certificate ID</span><span class="value">FARE-2026-83E9E958</span></div>
+            <div class="info-row"><span class="label">Student Name</span><span class="value">Vinod</span></div>
+            <div class="info-row"><span class="label">Enrollment No.</span><span class="value">CS001</span></div>
+            <div class="info-row"><span class="label">Achievement</span><span class="value">Special Award</span></div>
+            <div class="info-row"><span class="label">Event</span><span class="value">Farewell Awards</span></div>
+            <div class="info-row"><span class="label">Event Date</span><span class="value">21 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued Date</span><span class="value">22 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued By</span><span class="value">System Administrator</span></div>
+        </div>
+
+                <div class="blockchain-badge">
+            <p style="margin:0 0 4px;font-weight:600;">⛓ Blockchain Record — Block #5</p>
+            <p class="hash">d915dc7b572a26cbc2c2d4d496cb68b667382f62e08175852cc5ca1b000a5a66</p>
+        </div>
+        
+        <a href="http://127.0.0.1:8000/verify/FARE-2026-83E9E958" class="verify-btn">
+            🔍 Verify This Certificate Online
+        </a>
+
+        <p style="font-size:12px; color:#6b7280;">You can also verify by entering your Enrollment Number (<strong>CS001</strong>) at our verification portal.</p>
+    </div>
+    <div class="footer">
+        <p>This is an auto-generated email from CertChain — Your College Name</p>
+        <p>Please do not reply to this email.</p>
+    </div>
+</div>
+</body>
+</html>
+
+--crJ07fjy
+Content-Type: application/pdf; name=Certificate-FARE-2026-83E9E958.pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; name=Certificate-FARE-2026-83E9E958.pdf;
+ filename=Certificate-FARE-2026-83E9E958.pdf
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNzc4Pj4Kc3RyZWFtCniclVTLcts2FN37K86yXRjCG6B2ikznMU7cWmozWTIk
+ZDGlRJek6/FMPr4XFBVatOOZjKjLAQjce865D4kPZ5wZhwd6CS7BmZSOrLICzS1tcg6TGCY9vBbM
+JziXklmPJmBz+HxY/+zrcPmwfT6s+s9eJEyKVw5w5rwnLNYkEVficfP2TDAtCa0STHgYqwk1nEuY
+UXRZSZaIeHl19maN2aWAjxjWG6TruKOcY1ZCUxDusS7w25frv26wvL66St+m+LT4mP6O9bd4+sXg
+nHlDwaVXTFto75ix2MEYz7Q6rqtjdAmlx/D/4rnL5hYRlVbMaGgjovuIahmartyUedaFAQ/+fIFR
+dGmUOrGDSy+Z4dAyiUmJLq8vsfojXb5fXGHxeXFzMfqV0jLnoEUv4g5WGCbkcf2DjYLgp6EtrZ7a
+IbSl6wIq8fEVQ6+3ZQt67pr6vqge6R3asO9Cga6e0JOQk4x5zZQnpyKCid7+Lvd18WqWjiViLOMK
+imQlKXaUHsO8Pa6rsUaSU1qq13K0A62oioEifIntgaT7pq6qHTHBp3qO5YpzAeA7/Zf17u6+Cw1W
+eRn2eRi2VVPgS8iakfQr8YxjmuJxIneQcVM3aO/zPLTt5r6KOmZUJXl5l3Xl/hblHt12Wi4SQkz0
+5DHZ0nnmDrV2mTXhIVQVFg9ZU7RHZX9JG1LaU+qoDfih2rahKlDvQf39MXuE5NIi6/Ch3jYl3tVd
+qEagRNDGkTPavtP6oSRoqjiqPGci3B1VlY09MqxjDrWmXtbjCUeCCfv0xCDEhInsy3a0ByaxFwiA
+sESP90xWj20XdlgUu3Jftl2TdfUkfy97Msoy7Z96uqBunlOEH4pMcqXgTiHq3uVoB4g6iVNGEG8l
+nkF8Ni5MLPYnPTuR+uBT07SgaaWYS6bzB+8v5rhc3KTnEfK5V2mSJsYPFf2mqvN/8C5rt3MUiTBF
+7r4aJzNp86+5zGWhC80YOxXsNQyyH/99n4em3DxS1cyx7bq7+WwmJAlEPzH3nPPZf/2B2XNsY7T/
+AcXomd0KZW5kc3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8L1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAg
+UiBdCi9Db3VudCAxCi9NZWRpYUJveCBbMCAwIDg0MS44OSA1OTUuMjhdCj4+CmVuZG9iago1IDAg
+b2JqCjw8L0ZpbHRlciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAzNjQ+PgpzdHJlYW0KeJxdUstugzAQ
+vPMVPqaHCEwagiWEREmQOPSh0n4AgSVFKgYZcuDvu7t20qpIWOOxZ3ZWaz8vj6XuF+G/mbGpYBFd
+r1sD83g1DYgzXHrtyVC0fbO4Ha/NUE+ej+JqnRcYSt2NXpL473g2L2YVm6wdz/Dg+a+mBdPri9h8
+5hXuq+s0fcMAehGBl6aihQ59nuvppR5A+Czbli2e98u6Rc3vjY91AhHyXtoszdjCPNUNmFpfwEuC
+IBVJUaQe6PbfWWQV5+7v1UOBS4Bf6iVxhDg+4BIGIRFKIlYhEzImYkfEoyVyIkiirETukMhcfTJF
+TDFuBaW6BWi+aoPlApZl5BO7IhlhKhJIrIvY1ToR3ttkEeGY7oQ5Y8X8jlvIWBsxfrK8Ipwzv2fP
+E+PDkfI7T+KV9TxyX+wpLe88JWHnSTmV86S2lfOknKqwOHbdc7c0Dnow9zk3V2NwxPyqeLY01V7D
+/eFN40Qq+n8Afw22qQplbmRzdHJlYW0KZW5kb2JqCjYgMCBvYmoKPDwvVHlwZSAvRm9udAovQmFz
+ZUZvbnQgL1RpbWVzLVJvbWFuCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNv
+ZGluZwovVG9Vbmljb2RlIDUgMCBSCj4+CmVuZG9iago3IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jh
+c2VGb250IC9UaW1lcy1Cb2xkCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNv
+ZGluZwovVG9Vbmljb2RlIDUgMCBSCj4+CmVuZG9iago4IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jh
+c2VGb250IC9UaW1lcy1JdGFsaWMKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVu
+Y29kaW5nCi9Ub1VuaWNvZGUgNSAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1Byb2NTZXQgWy9Q
+REYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUldCi9Gb250IDw8Ci9GMSA2IDAgUgovRjIg
+NyAwIFIKL0YzIDggMCBSCj4+Ci9YT2JqZWN0IDw8Cj4+Cj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Q
+cm9kdWNlciAoRlBERiAxLjg2KQovQ3JlYXRpb25EYXRlIChEOjIwMjYwNTIyMDkwMTA0KzA1JzMw
+JykKPj4KZW5kb2JqCjEwIDAgb2JqCjw8Ci9UeXBlIC9DYXRhbG9nCi9QYWdlcyAxIDAgUgo+Pgpl
+bmRvYmoKeHJlZgowIDExCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDkzNSAwMDAwMCBuIAow
+MDAwMDAxODAxIDAwMDAwIG4gCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA4NyAwMDAwMCBu
+IAowMDAwMDAxMDIyIDAwMDAwIG4gCjAwMDAwMDE0NTYgMDAwMDAgbiAKMDAwMDAwMTU3MSAwMDAw
+MCBuIAowMDAwMDAxNjg1IDAwMDAwIG4gCjAwMDAwMDE5MjUgMDAwMDAgbiAKMDAwMDAwMjAwOCAw
+MDAwMCBuIAp0cmFpbGVyCjw8Ci9TaXplIDExCi9Sb290IDEwIDAgUgovSW5mbyA5IDAgUgo+Pgpz
+dGFydHhyZWYKMjA1OAolJUVPRgo=
+--crJ07fjy--
+  
+[2026-05-22 09:10:39] local.INFO: Block #6 mined for certificate FARE-2026-7AF18C43  
+[2026-05-22 09:10:39] local.DEBUG: From: CertChain - College Certificate System <muditsharmams123@gmail.com>
+To: MS <mudits389@gmail.com>
+Subject: Your Certificate - Farewell Awards
+MIME-Version: 1.0
+Date: Fri, 22 May 2026 09:10:39 +0530
+Message-ID: <926ba65a5bc97e14673806d2cb909325@gmail.com>
+Content-Type: multipart/mixed; boundary=Xqh4xvw4
+
+--Xqh4xvw4
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.header { background: linear-gradient(135deg, #1a3a5c, #2a5298); padding: 32px; text-align: center; }
+.header h1 { color: #c9a84c; font-size: 28px; margin: 0; }
+.header p { color: rgba(255,255,255,.7); font-size: 13px; margin: 4px 0 0; }
+.body { padding: 32px; }
+.body h2 { color: #1a3a5c; margin-top: 0; }
+.info-box { background: #f8fafc; border-radius: 8px; padding: 16px; margin: 16px 0; }
+.info-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+.info-row:last-child { border: none; }
+.info-row .label { color: #6b7280; }
+.info-row .value { color: #111827; font-weight: 500; }
+.blockchain-badge { background: linear-gradient(135deg, #0f2139, #1a3a5c); color: white; border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-size: 12px; }
+.blockchain-badge .hash { font-family: monospace; color: #fbbf24; word-break: break-all; font-size: 11px; }
+.verify-btn { display: block; text-align: center; background: #1a3a5c; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 20px 0; }
+.footer { background: #f8fafc; padding: 16px 32px; text-align: center; font-size: 11px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>⛓ CertChain</h1>
+        <p>Blockchain Certificate System — Your College Name</p>
+    </div>
+    <div class="body">
+        <h2>Congratulations, MS! 🎉</h2>
+        <p style="color:#374151; font-size:14px; line-height:1.7;">
+            Your certificate for <strong>Farewell Awards</strong> has been successfully issued and recorded on our blockchain ledger. The PDF certificate is attached to this email.
+        </p>
+
+        <div class="info-box">
+            <div class="info-row"><span class="label">Certificate ID</span><span class="value">FARE-2026-7AF18C43</span></div>
+            <div class="info-row"><span class="label">Student Name</span><span class="value">MS</span></div>
+            <div class="info-row"><span class="label">Enrollment No.</span><span class="value">CS002</span></div>
+            <div class="info-row"><span class="label">Achievement</span><span class="value">Course Completion</span></div>
+            <div class="info-row"><span class="label">Event</span><span class="value">Farewell Awards</span></div>
+            <div class="info-row"><span class="label">Event Date</span><span class="value">21 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued Date</span><span class="value">22 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued By</span><span class="value">System Administrator</span></div>
+        </div>
+
+                <div class="blockchain-badge">
+            <p style="margin:0 0 4px;font-weight:600;">⛓ Blockchain Record — Block #6</p>
+            <p class="hash">3d751cfaf044650fb2885768ec672e380f76b4fd579a5207502a854e071efa03</p>
+        </div>
+        
+        <a href="http://127.0.0.1:8000/verify/FARE-2026-7AF18C43" class="verify-btn">
+            🔍 Verify This Certificate Online
+        </a>
+
+        <p style="font-size:12px; color:#6b7280;">You can also verify by entering your Enrollment Number (<strong>CS002</strong>) at our verification portal.</p>
+    </div>
+    <div class="footer">
+        <p>This is an auto-generated email from CertChain — Your College Name</p>
+        <p>Please do not reply to this email.</p>
+    </div>
+</div>
+</body>
+</html>
+
+--Xqh4xvw4
+Content-Type: application/pdf; name=Certificate-FARE-2026-7AF18C43.pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; name=Certificate-FARE-2026-7AF18C43.pdf;
+ filename=Certificate-FARE-2026-7AF18C43.pdf
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNzYzPj4Kc3RyZWFtCniclVTJctpAEL37K/qYHBhmX7hhDF7KmARwqnxUkGSU
+CORIclxU5ePTIwkLhENVCuhhtu73Xvc0h7sLSpSBNxwY5UAJ5wat0AzyZ1ykFJRThFuwkhHroMc5
+0RbyCOJ6u57/a7e5XC/3mlm1bZkjnJ05QImxFrFo5TwuZ2F+fcGI5IhWMMIsKC0RNRjjiBJ4WXDi
+mL+8uLhcQn/CwHoMyxjGS78ijCGag8Qg1MIyhE9Ps8c5jGb39+PrMTwMp+PPsPzhT38YnBKrMDi3
+gkgN0hqiNGxAKUuk2M/TfXQOQrbhf8Gpy/wZPCopiJIgFfPuPapRlJdJnKyCMmrwwNcPGHmXSogj
+27g03MsoufNJ8S5nE6T5OF+McZh+uR8vb2cPrW/ONTEGJKuE3IBmijC+n78zEsDocXiNs0PbhNd4
+nYFw1g8+/HKdFIDflzx7DdMdjlERbcsohDLrUOTAO1lzjjiJTpkH471NF2fTtK8RwxATCNRVUSQl
+jT+xn6dtkbhjTqISs7X7LCF1TCmCc7pCMd7mWZpukAY8ZAMYLSjuA/zB3wh1rv+JPISnKMhbkmdC
+KEOkAkGRTy1bnOVQvK5WUVHEr6nXLcDKWCUvQZlsnyHZQrnulggHxo71s9QnlxtLTF1fkyCP3qI0
+heFbkIfFXsz/kkNpYjFVWPq0rrB1lIaQbQHf9DTYAadcQ1DCXbbOE7jJyihtgSJB7dtMa6vXVTUi
+hp3EYKUZ5eFuMP3av4tm7tMmJb5f2Z4wKBjThycaITpMeFWmra2Z+NpHAEwjPVoxWeyKMtrAMNwk
+26Qo86DMOvn72JMSmkh76OkKX/AAI7wr0smVAHMMUVYuW9tAlM53Foa8BTuBeNIilK/vgzfakbr2
+KTlRWM6CGNftOXB7NYDJcD7uecg9M5wwO8IGV1f0ZZqtfsJNUKwHIEKj2CoOYiqlVjT+zq1VRltC
+yLFg5zDwquV7DN+iPIl3WDUDWJfly6DfZxwFwg8bWEpp/3d1oH+KrY32FxRHk9QKZW5kc3RyZWFt
+CmVuZG9iagoxIDAgb2JqCjw8L1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAgUiBdCi9Db3VudCAxCi9N
+ZWRpYUJveCBbMCAwIDg0MS44OSA1OTUuMjhdCj4+CmVuZG9iago1IDAgb2JqCjw8L0ZpbHRlciAv
+RmxhdGVEZWNvZGUgL0xlbmd0aCAzNjQ+PgpzdHJlYW0KeJxdUstugzAQvPMVPqaHCEwagiWEREmQ
+OPSh0n4AgSVFKgYZcuDvu7t20qpIWOOxZ3ZWaz8vj6XuF+G/mbGpYBFdr1sD83g1DYgzXHrtyVC0
+fbO4Ha/NUE+ej+JqnRcYSt2NXpL473g2L2YVm6wdz/Dg+a+mBdPri9h85hXuq+s0fcMAehGBl6ai
+hQ59nuvppR5A+Czbli2e98u6Rc3vjY91AhHyXtoszdjCPNUNmFpfwEuCIBVJUaQe6PbfWWQV5+7v
+1UOBS4Bf6iVxhDg+4BIGIRFKIlYhEzImYkfEoyVyIkiirETukMhcfTJFTDFuBaW6BWi+aoPlApZl
+5BO7IhlhKhJIrIvY1ToR3ttkEeGY7oQ5Y8X8jlvIWBsxfrK8Ipwzv2fPE+PDkfI7T+KV9TxyX+wp
+Le88JWHnSTmV86S2lfOknKqwOHbdc7c0Dnow9zk3V2NwxPyqeLY01V7D/eFN40Qq+n8Afw22qQpl
+bmRzdHJlYW0KZW5kb2JqCjYgMCBvYmoKPDwvVHlwZSAvRm9udAovQmFzZUZvbnQgL1RpbWVzLVJv
+bWFuCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovVG9Vbmljb2Rl
+IDUgMCBSCj4+CmVuZG9iago3IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1lcy1C
+b2xkCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovVG9Vbmljb2Rl
+IDUgMCBSCj4+CmVuZG9iago4IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1lcy1J
+dGFsaWMKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9Ub1VuaWNv
+ZGUgNSAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdl
+QiAvSW1hZ2VDIC9JbWFnZUldCi9Gb250IDw8Ci9GMSA2IDAgUgovRjIgNyAwIFIKL0YzIDggMCBS
+Cj4+Ci9YT2JqZWN0IDw8Cj4+Cj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Qcm9kdWNlciAoRlBERiAx
+Ljg2KQovQ3JlYXRpb25EYXRlIChEOjIwMjYwNTIyMDkxMDM5KzA1JzMwJykKPj4KZW5kb2JqCjEw
+IDAgb2JqCjw8Ci9UeXBlIC9DYXRhbG9nCi9QYWdlcyAxIDAgUgo+PgplbmRvYmoKeHJlZgowIDEx
+CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDkyMCAwMDAwMCBuIAowMDAwMDAxNzg2IDAwMDAw
+IG4gCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA4NyAwMDAwMCBuIAowMDAwMDAxMDA3IDAw
+MDAwIG4gCjAwMDAwMDE0NDEgMDAwMDAgbiAKMDAwMDAwMTU1NiAwMDAwMCBuIAowMDAwMDAxNjcw
+IDAwMDAwIG4gCjAwMDAwMDE5MTAgMDAwMDAgbiAKMDAwMDAwMTk5MyAwMDAwMCBuIAp0cmFpbGVy
+Cjw8Ci9TaXplIDExCi9Sb290IDEwIDAgUgovSW5mbyA5IDAgUgo+PgpzdGFydHhyZWYKMjA0Mwol
+JUVPRgo=
+--Xqh4xvw4--
+  
+[2026-05-22 10:38:25] local.INFO: Block #7 mined for certificate FARE-2026-9DEF8332  
+[2026-05-22 10:38:26] local.DEBUG: From: CertChain - College Certificate System <muditsharmams123@gmail.com>
+To: Pankaj Panchal <mudits389@gmail.com>
+Subject: Your Certificate - Farewell Awards
+MIME-Version: 1.0
+Date: Fri, 22 May 2026 10:38:26 +0530
+Message-ID: <c55cc3c7ef5f75cacd9a8b610fd2f89a@gmail.com>
+Content-Type: multipart/mixed; boundary=NehVhw78
+
+--NehVhw78
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.header { background: linear-gradient(135deg, #1a3a5c, #2a5298); padding: 32px; text-align: center; }
+.header h1 { color: #c9a84c; font-size: 28px; margin: 0; }
+.header p { color: rgba(255,255,255,.7); font-size: 13px; margin: 4px 0 0; }
+.body { padding: 32px; }
+.body h2 { color: #1a3a5c; margin-top: 0; }
+.info-box { background: #f8fafc; border-radius: 8px; padding: 16px; margin: 16px 0; }
+.info-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+.info-row:last-child { border: none; }
+.info-row .label { color: #6b7280; }
+.info-row .value { color: #111827; font-weight: 500; }
+.blockchain-badge { background: linear-gradient(135deg, #0f2139, #1a3a5c); color: white; border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-size: 12px; }
+.blockchain-badge .hash { font-family: monospace; color: #fbbf24; word-break: break-all; font-size: 11px; }
+.verify-btn { display: block; text-align: center; background: #1a3a5c; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 20px 0; }
+.footer { background: #f8fafc; padding: 16px 32px; text-align: center; font-size: 11px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>⛓ CertChain</h1>
+        <p>Blockchain Certificate System — Your College Name</p>
+    </div>
+    <div class="body">
+        <h2>Congratulations, Pankaj Panchal! 🎉</h2>
+        <p style="color:#374151; font-size:14px; line-height:1.7;">
+            Your certificate for <strong>Farewell Awards</strong> has been successfully issued and recorded on our blockchain ledger. The PDF certificate is attached to this email.
+        </p>
+
+        <div class="info-box">
+            <div class="info-row"><span class="label">Certificate ID</span><span class="value">FARE-2026-9DEF8332</span></div>
+            <div class="info-row"><span class="label">Student Name</span><span class="value">Pankaj Panchal</span></div>
+            <div class="info-row"><span class="label">Enrollment No.</span><span class="value">CS003</span></div>
+            <div class="info-row"><span class="label">Achievement</span><span class="value">2nd Prize</span></div>
+            <div class="info-row"><span class="label">Event</span><span class="value">Farewell Awards</span></div>
+            <div class="info-row"><span class="label">Event Date</span><span class="value">21 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued Date</span><span class="value">22 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued By</span><span class="value">System Administrator</span></div>
+        </div>
+
+                <div class="blockchain-badge">
+            <p style="margin:0 0 4px;font-weight:600;">⛓ Blockchain Record — Block #7</p>
+            <p class="hash">2a3ec5e75f5c5067606f01a2bdb4c9db0d9730e6db92a591baba181b535227e9</p>
+        </div>
+        
+        <a href="http://127.0.0.1:8000/verify/FARE-2026-9DEF8332" class="verify-btn">
+            🔍 Verify This Certificate Online
+        </a>
+
+        <p style="font-size:12px; color:#6b7280;">You can also verify by entering your Enrollment Number (<strong>CS003</strong>) at our verification portal.</p>
+    </div>
+    <div class="footer">
+        <p>This is an auto-generated email from CertChain — Your College Name</p>
+        <p>Please do not reply to this email.</p>
+    </div>
+</div>
+</body>
+</html>
+
+--NehVhw78
+Content-Type: application/pdf; name=Certificate-FARE-2026-9DEF8332.pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; name=Certificate-FARE-2026-9DEF8332.pdf;
+ filename=Certificate-FARE-2026-9DEF8332.pdf
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNzY3Pj4Kc3RyZWFtCniclVTbctowEH3PV+xj+4DQXTJvBEwuk1uBdiZ98xgR
+nBic2k4zzPTju7JNDCZlpgOsWFvaPXv2rDhcn1GiDLzjwigHSjg3aIVmkD/hQ0pBBYpwC1YyYgPo
+cU60hdzBsn5d+/962xyuH/car3ptWUA4O7GBEmMtYtEq8LgCC9OLM0YkR7SCEWZBaYmowZiAKIGH
+BScB84dnZ+dz6E8YWI9hvoRw7p8IY4jmIDEJtTBfwJfH++9TGN3f3IQXIdwNb8OvMH/2uz9NTolV
+mJxbQaQGaQ1RGtaglCVS7Px0l52DkG36X3AcMn8Cj0oKoiRIxXx4j2rk8jJZJnFUugYPfPukIh9S
+CXFgm5CBJAGG5IFvig95PwF+N4aH6dXPsI3JuSbGgGQVgWvQTBHGd/5HJQIYPUyr0du3TVqNxxlm
+t37xaeerpAD8vubZ2yLd4uoKtyndAsqsUxoH3ukWgkNaUYoejI/2EG1eomfAJV5F6clWNTpBz7da
+ILeK+lYh15bt/LQVSnBYn6gIbe2uU0gDthWBBrpCFG7yLE3XWBLcZQMYzSgVAPAHf6NZ2PwT+QIe
+XZS3BZ9IoQyRCgTFemoKl1kOxVscu6JYvqWewwjVESevUZlsniDZQLnqyoQDY4dcWuobzY0lptbY
+JMrdu0tTGL5H+aLYkflfdChNLLYN5U9rla1cuoBsAzjXt9EWOOUaohKus1WewGVWurQFigVqf9W0
+tpqw6jJieJsYVJ1RHu4aFaX9bDS+b5uUOMOy3WGQMKb3dzREdCrhlWRbW1fi5wABMI3l0aqS2bYo
+3RqGi3WySYoyj8qs07/PIymBorX7kcY4xQPM8MFIp1cCzCFEWYVsbQNRBv52YVi3YEcQj64J5fW9
+N68dquuYkhOFchbEBN17B67GA5gMp2HPQ+4F43BiheCNos/TLH6By6hYYWWRcLFyRi1VrKg2muol
+ZREnhBwSdgoDr659j+GHy5PlFlUzgFVZvg76fcaRIPywgaWU9n9XG/rH2NpsfwGfbZYRCmVuZHN0
+cmVhbQplbmRvYmoKMSAwIG9iago8PC9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFIgXQovQ291bnQg
+MQovTWVkaWFCb3ggWzAgMCA4NDEuODkgNTk1LjI4XQo+PgplbmRvYmoKNSAwIG9iago8PC9GaWx0
+ZXIgL0ZsYXRlRGVjb2RlIC9MZW5ndGggMzY0Pj4Kc3RyZWFtCnicXVLLboMwELzzFT6mhwhMGoIl
+hERJkDj0odJ+AIElRSoGGXLg77u7dtKqSFjjsWd2Vms/L4+l7hfhv5mxqWARXa9bA/N4NQ2IM1x6
+7clQtH2zuB2vzVBPno/iap0XGErdjV6S+O94Ni9mFZusHc/w4PmvpgXT64vYfOYV7qvrNH3DAHoR
+gZemooUOfZ7r6aUeQPgs25YtnvfLukXN742PdQIR8l7aLM3YwjzVDZhaX8BLgiAVSVGkHuj231lk
+Fefu79VDgUuAX+olcYQ4PuASBiERSiJWIRMyJmJHxKMlciJIoqxE7pDIXH0yRUwxbgWlugVovmqD
+5QKWZeQTuyIZYSoSSKyL2NU6Ed7bZBHhmO6EOWPF/I5byFgbMX6yvCKcM79nzxPjw5HyO0/ilfU8
+cl/sKS3vPCVh50k5lfOktpXzpJyqsDh23XO3NA56MPc5N1djcMT8qni2NNVew/3hTeNEKvp/AH8N
+tqkKZW5kc3RyZWFtCmVuZG9iago2IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1l
+cy1Sb21hbgovU3VidHlwZSAvVHlwZTEKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1RvVW5p
+Y29kZSA1IDAgUgo+PgplbmRvYmoKNyAwIG9iago8PC9UeXBlIC9Gb250Ci9CYXNlRm9udCAvVGlt
+ZXMtQm9sZAovU3VidHlwZSAvVHlwZTEKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1RvVW5p
+Y29kZSA1IDAgUgo+PgplbmRvYmoKOCAwIG9iago8PC9UeXBlIC9Gb250Ci9CYXNlRm9udCAvVGlt
+ZXMtSXRhbGljCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovVG9V
+bmljb2RlIDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9J
+bWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQovRm9udCA8PAovRjEgNiAwIFIKL0YyIDcgMCBSCi9GMyA4
+IDAgUgo+PgovWE9iamVjdCA8PAo+Pgo+PgplbmRvYmoKOSAwIG9iago8PAovUHJvZHVjZXIgKEZQ
+REYgMS44NikKL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MDUyMjEwMzgyNiswNSczMCcpCj4+CmVuZG9i
+agoxMCAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMSAwIFIKPj4KZW5kb2JqCnhyZWYK
+MCAxMQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDA5MjQgMDAwMDAgbiAKMDAwMDAwMTc5MCAw
+MDAwMCBuIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwODcgMDAwMDAgbiAKMDAwMDAwMTAx
+MSAwMDAwMCBuIAowMDAwMDAxNDQ1IDAwMDAwIG4gCjAwMDAwMDE1NjAgMDAwMDAgbiAKMDAwMDAw
+MTY3NCAwMDAwMCBuIAowMDAwMDAxOTE0IDAwMDAwIG4gCjAwMDAwMDE5OTcgMDAwMDAgbiAKdHJh
+aWxlcgo8PAovU2l6ZSAxMQovUm9vdCAxMCAwIFIKL0luZm8gOSAwIFIKPj4Kc3RhcnR4cmVmCjIw
+NDcKJSVFT0YK
+--NehVhw78--
+  
+[2026-05-22 10:42:38] local.INFO: Block #8 mined for certificate FARE-2026-69C01582  
+[2026-05-22 10:42:38] local.DEBUG: From: CertChain - College Certificate System <muditsharmams123@gmail.com>
+To: Lucky <mudits389@gmail.com>
+Subject: Your Certificate - Farewell Awards
+MIME-Version: 1.0
+Date: Fri, 22 May 2026 10:42:38 +0530
+Message-ID: <4f83f91cb01844a01d879e4885dd2dc2@gmail.com>
+Content-Type: multipart/mixed; boundary=R5v6hqzc
+
+--R5v6hqzc
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.header { background: linear-gradient(135deg, #1a3a5c, #2a5298); padding: 32px; text-align: center; }
+.header h1 { color: #c9a84c; font-size: 28px; margin: 0; }
+.header p { color: rgba(255,255,255,.7); font-size: 13px; margin: 4px 0 0; }
+.body { padding: 32px; }
+.body h2 { color: #1a3a5c; margin-top: 0; }
+.info-box { background: #f8fafc; border-radius: 8px; padding: 16px; margin: 16px 0; }
+.info-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+.info-row:last-child { border: none; }
+.info-row .label { color: #6b7280; }
+.info-row .value { color: #111827; font-weight: 500; }
+.blockchain-badge { background: linear-gradient(135deg, #0f2139, #1a3a5c); color: white; border-radius: 8px; padding: 12px 16px; margin: 16px 0; font-size: 12px; }
+.blockchain-badge .hash { font-family: monospace; color: #fbbf24; word-break: break-all; font-size: 11px; }
+.verify-btn { display: block; text-align: center; background: #1a3a5c; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 20px 0; }
+.footer { background: #f8fafc; padding: 16px 32px; text-align: center; font-size: 11px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>⛓ CertChain</h1>
+        <p>Blockchain Certificate System — Your College Name</p>
+    </div>
+    <div class="body">
+        <h2>Congratulations, Lucky! 🎉</h2>
+        <p style="color:#374151; font-size:14px; line-height:1.7;">
+            Your certificate for <strong>Farewell Awards</strong> has been successfully issued and recorded on our blockchain ledger. The PDF certificate is attached to this email.
+        </p>
+
+        <div class="info-box">
+            <div class="info-row"><span class="label">Certificate ID</span><span class="value">FARE-2026-69C01582</span></div>
+            <div class="info-row"><span class="label">Student Name</span><span class="value">Lucky</span></div>
+            <div class="info-row"><span class="label">Enrollment No.</span><span class="value">CS004</span></div>
+            <div class="info-row"><span class="label">Achievement</span><span class="value">Special Award</span></div>
+            <div class="info-row"><span class="label">Event</span><span class="value">Farewell Awards</span></div>
+            <div class="info-row"><span class="label">Event Date</span><span class="value">21 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued Date</span><span class="value">22 May 2026</span></div>
+            <div class="info-row"><span class="label">Issued By</span><span class="value">System Administrator</span></div>
+        </div>
+
+                <div class="blockchain-badge">
+            <p style="margin:0 0 4px;font-weight:600;">⛓ Blockchain Record — Block #8</p>
+            <p class="hash">c9d8b577b8bc4acabba055ba81dbfdfcd5a910485ad9137c11bac14af638657a</p>
+        </div>
+        
+        <a href="http://127.0.0.1:8000/verify/FARE-2026-69C01582" class="verify-btn">
+            🔍 Verify This Certificate Online
+        </a>
+
+        <p style="font-size:12px; color:#6b7280;">You can also verify by entering your Enrollment Number (<strong>CS004</strong>) at our verification portal.</p>
+    </div>
+    <div class="footer">
+        <p>This is an auto-generated email from CertChain — Your College Name</p>
+        <p>Please do not reply to this email.</p>
+    </div>
+</div>
+</body>
+</html>
+
+--R5v6hqzc
+Content-Type: application/pdf; name=Certificate-FARE-2026-69C01582.pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; name=Certificate-FARE-2026-69C01582.pdf;
+ filename=Certificate-FARE-2026-69C01582.pdf
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggNzY2Pj4Kc3RyZWFtCniclVRNc9MwFLz3V+wRDlX0LTm3NE0LTKHQBBiOjuM0
+BicutksnM/x4nmwHN27pDJNEjmTpvd19qyfx7oQz4/BAD8ElOJPS0aisQHlLi5zDRIZJD68F8xFO
+pWTWo0yxbl+383+97Q63y6fdrHntRcSkeGEDZ857wmJNFHBFHjeXJ4JpSWiVYMLDWE2o4VzEjKLD
+SrJIhMPzk7MFRhcCPmBYrDFbhBXlHLMSmpJwj8UKr75df77B9PrqanY5w4fJ+9lrLL6H3c8m58wb
+Si69YtpCe8eMxRbGeKbVYZ4fskso3af/iachy1sEVFoxo6GNCOEDqmla1tk6S+I67fDg0zOMQkij
+1NHYhfSSGQ4to1CUEPL6AvOPs+nbyRUmXyc3531cKS1zDlo0Im5hhWFCHuZ/2SgIfpza0uzx2KW2
+dFxART48QurFJqtA37uyuF/le3qmVbqr0xXqYkBPQg4qRkQ8CWlFABOiXd0nP/YvVulgEaOZ9lAk
+K0mxbcqjxWGe9x6JjmmpRst+PBSJ2BMQwhfZBshsVxZ5viUm+FCMMZ1zrgH8pt90Puv+qXKFb2lc
+9jxfSGEIoIHixKdVbl2UqO6TJK2q9X0epIvJGEl2F9fZ7hbZDvVm6BAJIQYS8lBf6Txzrb0u4jJ9
+SPMck4e4XFUHMf9LDmNDXSQ5n7cG26T5CsUOdKXfx3tILi3iGu+KTZnhTVGneQ+UCNrQZfqxuVxN
+HxLUSByZzZkAd0tGsuFadPNQNq3p+up+hyPBhH28oxNiwEQ2Tu3HlkmwPwEQlujxhsl8X9XpFpPV
+NttlVV3GdTGo3/ORjLLBcI8indMFHlOGv4oMaqXgjiHqJmQ/dhB1FBqLIN5KPIH4pEOY4O9H13Qg
+dRtTU4MgOyvmomHLwdvzMS4mN7PTAPnURlMuDBW7dfRZXiQ/8CauNmMk0covjXNLv0x0nMTLZcyN
+WcaMsWPBXsIgm44fMHxJy2y9J9eMsanru/FoJCQJRB8x9pzz0a9mw+gptj7bH9eOlNsKZW5kc3Ry
+ZWFtCmVuZG9iagoxIDAgb2JqCjw8L1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAgUiBdCi9Db3VudCAx
+Ci9NZWRpYUJveCBbMCAwIDg0MS44OSA1OTUuMjhdCj4+CmVuZG9iago1IDAgb2JqCjw8L0ZpbHRl
+ciAvRmxhdGVEZWNvZGUgL0xlbmd0aCAzNjQ+PgpzdHJlYW0KeJxdUstugzAQvPMVPqaHCEwagiWE
+REmQOPSh0n4AgSVFKgYZcuDvu7t20qpIWOOxZ3ZWaz8vj6XuF+G/mbGpYBFdr1sD83g1DYgzXHrt
+yVC0fbO4Ha/NUE+ej+JqnRcYSt2NXpL473g2L2YVm6wdz/Dg+a+mBdPri9h85hXuq+s0fcMAehGB
+l6aihQ59nuvppR5A+Czbli2e98u6Rc3vjY91AhHyXtoszdjCPNUNmFpfwEuCIBVJUaQe6PbfWWQV
+5+7v1UOBS4Bf6iVxhDg+4BIGIRFKIlYhEzImYkfEoyVyIkiirETukMhcfTJFTDFuBaW6BWi+aoPl
+ApZl5BO7IhlhKhJIrIvY1ToR3ttkEeGY7oQ5Y8X8jlvIWBsxfrK8Ipwzv2fPE+PDkfI7T+KV9Txy
+X+wpLe88JWHnSTmV86S2lfOknKqwOHbdc7c0Dnow9zk3V2NwxPyqeLY01V7D/eFN40Qq+n8Afw22
+qQplbmRzdHJlYW0KZW5kb2JqCjYgMCBvYmoKPDwvVHlwZSAvRm9udAovQmFzZUZvbnQgL1RpbWVz
+LVJvbWFuCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovVG9Vbmlj
+b2RlIDUgMCBSCj4+CmVuZG9iago3IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1l
+cy1Cb2xkCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovVG9Vbmlj
+b2RlIDUgMCBSCj4+CmVuZG9iago4IDAgb2JqCjw8L1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1l
+cy1JdGFsaWMKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9Ub1Vu
+aWNvZGUgNSAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1Byb2NTZXQgWy9QREYgL1RleHQgL0lt
+YWdlQiAvSW1hZ2VDIC9JbWFnZUldCi9Gb250IDw8Ci9GMSA2IDAgUgovRjIgNyAwIFIKL0YzIDgg
+MCBSCj4+Ci9YT2JqZWN0IDw8Cj4+Cj4+CmVuZG9iago5IDAgb2JqCjw8Ci9Qcm9kdWNlciAoRlBE
+RiAxLjg2KQovQ3JlYXRpb25EYXRlIChEOjIwMjYwNTIyMTA0MjM4KzA1JzMwJykKPj4KZW5kb2Jq
+CjEwIDAgb2JqCjw8Ci9UeXBlIC9DYXRhbG9nCi9QYWdlcyAxIDAgUgo+PgplbmRvYmoKeHJlZgow
+IDExCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDkyMyAwMDAwMCBuIAowMDAwMDAxNzg5IDAw
+MDAwIG4gCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA4NyAwMDAwMCBuIAowMDAwMDAxMDEw
+IDAwMDAwIG4gCjAwMDAwMDE0NDQgMDAwMDAgbiAKMDAwMDAwMTU1OSAwMDAwMCBuIAowMDAwMDAx
+NjczIDAwMDAwIG4gCjAwMDAwMDE5MTMgMDAwMDAgbiAKMDAwMDAwMTk5NiAwMDAwMCBuIAp0cmFp
+bGVyCjw8Ci9TaXplIDExCi9Sb290IDEwIDAgUgovSW5mbyA5IDAgUgo+PgpzdGFydHhyZWYKMjA0
+NgolJUVPRgo=
+--R5v6hqzc--
+  
+[2026-05-22 11:16:01] local.INFO: Block #9 mined for certificate FARE-2026-95DD7D21  
