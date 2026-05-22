@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 
 class VerifyController extends Controller
 {
-    public function __construct(protected BlockchainService $blockchain) {}
+    public function __construct(protected BlockchainService $blockchain)
+    {
+    }
 
     public function index()
     {
@@ -21,7 +23,7 @@ class VerifyController extends Controller
             'query' => 'required|string|min:3',
         ]);
 
-        $q = trim($request->query);
+        $q = trim($request->input('query'));
 
         // Try by Certificate ID first, then by enrollment number
         $certificate = Certificate::with(['event', 'issuer', 'template', 'blockchainBlock'])

@@ -22,13 +22,13 @@ class EventController extends Controller
     public function store(Request $request)
     {
         $data = $request->validate([
-            'name'          => 'required|string|max:255',
-            'description'   => 'nullable|string',
-            'event_type'    => 'required|string',
-            'event_date'    => 'required|date',
-            'event_end_date'=> 'nullable|date|after_or_equal:event_date',
-            'venue'         => 'nullable|string|max:255',
-            'department'    => 'nullable|string|max:255',
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'event_type' => 'required|string',
+            'event_date' => 'required|date',
+            'event_end_date' => 'nullable|date|after_or_equal:event_date',
+            'venue' => 'nullable|string|max:255',
+            'department' => 'nullable|string|max:255',
         ]);
 
         Event::create([...$data, 'created_by' => auth()->id()]);
@@ -38,23 +38,20 @@ class EventController extends Controller
 
     public function edit(Event $event)
     {
-        $this->authorize('update', $event);
         return view('faculty.events.edit', compact('event'));
     }
 
     public function update(Request $request, Event $event)
     {
-        $this->authorize('update', $event);
-
         $data = $request->validate([
-            'name'          => 'required|string|max:255',
-            'description'   => 'nullable|string',
-            'event_type'    => 'required|string',
-            'event_date'    => 'required|date',
-            'event_end_date'=> 'nullable|date',
-            'venue'         => 'nullable|string',
-            'department'    => 'nullable|string',
-            'status'        => 'required|in:active,completed,cancelled',
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'event_type' => 'required|string',
+            'event_date' => 'required|date',
+            'event_end_date' => 'nullable|date',
+            'venue' => 'nullable|string',
+            'department' => 'nullable|string',
+            'status' => 'required|in:active,completed,cancelled',
         ]);
 
         $event->update($data);
@@ -63,7 +60,6 @@ class EventController extends Controller
 
     public function destroy(Event $event)
     {
-        $this->authorize('delete', $event);
         if ($event->certificates()->count() > 0) {
             return back()->with('error', 'Cannot delete event with issued certificates.');
         }

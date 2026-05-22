@@ -1,44 +1,44 @@
-@extends('layouts.app')
-@section('title', isset($template) ? 'Edit Template' : 'Create Template')
-@section('page-title', isset($template) ? 'Edit Template' : 'Create Certificate Template')
-@section('page-subtitle','Design your certificate HTML. Use {{placeholders}} for dynamic content.')
+<?php $__env->startSection('title', isset($template) ? 'Edit Template' : 'Create Template'); ?>
+<?php $__env->startSection('page-title', isset($template) ? 'Edit Template' : 'Create Certificate Template'); ?>
+<?php $__env->startSection('page-subtitle','Design your certificate HTML. Use <?php echo e(placeholders); ?> for dynamic content.'); ?>
 
-@section('content')
-<form method="POST" action="{{ isset($template) ? route('admin.templates.update', $template) : route('admin.templates.store') }}">
-@csrf
-@if(isset($template)) @method('PUT') @endif
+<?php $__env->startSection('content'); ?>
+<form method="POST" action="<?php echo e(isset($template) ? route('admin.templates.update', $template) : route('admin.templates.store')); ?>">
+<?php echo csrf_field(); ?>
+<?php if(isset($template)): ?> <?php echo method_field('PUT'); ?> <?php endif; ?>
 
 <div class="grid lg:grid-cols-3 gap-6">
-    {{-- Left: Editor --}}
+    
     <div class="lg:col-span-2 space-y-5">
         <div class="card p-6">
             <h3 class="font-semibold text-gray-800 mb-4">Template Info</h3>
             <div class="grid md:grid-cols-3 gap-4 mb-4">
                 <div class="md:col-span-2">
                     <label class="block text-sm font-medium text-gray-700 mb-1.5">Template Name <span class="text-red-500">*</span></label>
-                    <input type="text" name="name" value="{{ old('name', $template->name ?? '') }}" required
+                    <input type="text" name="name" value="<?php echo e(old('name', $template->name ?? '')); ?>" required
                         class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                         placeholder="e.g. Participation Certificate">
                 </div>
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1.5">Type <span class="text-red-500">*</span></label>
                     <select name="type" required class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        @foreach(['participation','achievement','completion','winner'] as $t)
-                        <option value="{{ $t }}" {{ old('type', $template->type ?? '') === $t ? 'selected' : '' }}>{{ ucfirst($t) }}</option>
-                        @endforeach
+                        <?php $__currentLoopData = ['participation','achievement','completion','winner']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $t): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <option value="<?php echo e($t); ?>" <?php echo e(old('type', $template->type ?? '') === $t ? 'selected' : ''); ?>><?php echo e(ucfirst($t)); ?></option>
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </select>
                 </div>
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1.5">Border Style</label>
                     <select name="border_style" class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        @foreach(['classic','modern','minimal'] as $b)
-                        <option value="{{ $b }}" {{ old('border_style', $template->border_style ?? 'classic') === $b ? 'selected' : '' }}>{{ ucfirst($b) }}</option>
-                        @endforeach
+                        <?php $__currentLoopData = ['classic','modern','minimal']; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $b): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <option value="<?php echo e($b); ?>" <?php echo e(old('border_style', $template->border_style ?? 'classic') === $b ? 'selected' : ''); ?>><?php echo e(ucfirst($b)); ?></option>
+                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     </select>
                 </div>
                 <div class="flex items-center gap-2 mt-4">
                     <input type="checkbox" name="is_active" value="1" id="is_active"
-                        {{ old('is_active', $template->is_active ?? true) ? 'checked' : '' }}
+                        <?php echo e(old('is_active', $template->is_active ?? true) ? 'checked' : ''); ?>
+
                         class="rounded border-gray-300 text-blue-600">
                     <label for="is_active" class="text-sm text-gray-700">Active (available for issuing)</label>
                 </div>
@@ -52,16 +52,16 @@
             </div>
             <textarea name="html_content" id="htmlEditor" rows="22" required
                 class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
-                placeholder="Paste your certificate HTML here...">{{ old('html_content', $template->html_content ?? $defaultHtml ?? '') }}</textarea>
+                placeholder="Paste your certificate HTML here..."><?php echo e(old('html_content', $template->html_content ?? $defaultHtml ?? '')); ?></textarea>
         </div>
     </div>
 
-    {{-- Right: Placeholders Guide --}}
+    
     <div class="space-y-4">
         <div class="card p-5">
             <h4 class="font-semibold text-gray-800 mb-3">📋 Available Placeholders</h4>
             <p class="text-xs text-gray-500 mb-3">Click to copy. Use these in your HTML template.</p>
-            @php
+            <?php
             $placeholders = [
                 '{{student_name}}'       => 'Student full name',
                 '{{enrollment_number}}'  => 'Student enrollment no.',
@@ -81,14 +81,14 @@
                 '{{college_name}}'       => 'College name',
                 '{{{qr_code}}}'          => 'QR code SVG',
             ];
-            @endphp
+            ?>
             <div class="space-y-1.5 max-h-80 overflow-y-auto">
-                @foreach($placeholders as $ph => $desc)
-                <div class="flex items-center justify-between gap-2 p-1.5 rounded hover:bg-gray-50 cursor-pointer" onclick="copyPlaceholder('{{ $ph }}')">
-                    <code class="text-xs bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded">{{ $ph }}</code>
-                    <span class="text-xs text-gray-400 flex-1 text-right">{{ $desc }}</span>
+                <?php $__currentLoopData = $placeholders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ph => $desc): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <div class="flex items-center justify-between gap-2 p-1.5 rounded hover:bg-gray-50 cursor-pointer" onclick="copyPlaceholder('<?php echo e($ph); ?>')">
+                    <code class="text-xs bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded"><?php echo e($ph); ?></code>
+                    <span class="text-xs text-gray-400 flex-1 text-right"><?php echo e($desc); ?></span>
                 </div>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
         </div>
 
@@ -96,7 +96,7 @@
             <h4 class="font-semibold text-gray-800 mb-2">💡 Tips</h4>
             <ul class="text-xs text-gray-500 space-y-1.5">
                 <li>• Use A4 landscape: <code class="bg-gray-100 px-1 rounded">297mm × 210mm</code></li>
-                <li>• Use <code class="bg-gray-100 px-1 rounded">@{{{qr_code}}}</code> (triple braces for QR code)</li>
+                <li>• Use <code class="bg-gray-100 px-1 rounded">{{{qr_code}}}</code> (triple braces for QR code)</li>
                 <li>• Google Fonts work via @import</li>
                 <li>• Test with Preview before saving</li>
             </ul>
@@ -104,15 +104,16 @@
 
         <div class="flex flex-col gap-2">
             <button type="submit" class="btn-primary text-center">
-                {{ isset($template) ? '💾 Update Template' : '✅ Save Template' }}
+                <?php echo e(isset($template) ? '💾 Update Template' : '✅ Save Template'); ?>
+
             </button>
-            <a href="{{ route('admin.templates') }}" class="text-center text-sm text-gray-400 hover:text-gray-600">Cancel</a>
+            <a href="<?php echo e(route('admin.templates')); ?>" class="text-center text-sm text-gray-400 hover:text-gray-600">Cancel</a>
         </div>
     </div>
 </div>
 </form>
 
-{{-- Preview iframe modal --}}
+
 <div id="previewModal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4">
     <div class="bg-white rounded-xl w-full max-w-5xl h-[80vh] flex flex-col">
         <div class="flex items-center justify-between p-4 border-b">
@@ -123,7 +124,7 @@
     </div>
 </div>
 
-@push('scripts')
+<?php $__env->startPush('scripts'); ?>
 <script>
 function copyPlaceholder(text) {
     navigator.clipboard.writeText(text);
@@ -149,7 +150,7 @@ function previewTemplate() {
     };
     let rendered = html;
     Object.entries(sample).forEach(([k,v]) => {
-        rendered = rendered.replaceAll(`@{{${k}}}`, v).replaceAll(`@{${k}}`, v);
+        rendered = rendered.replaceAll(`{{${k}}}`, v).replaceAll(`@{${k}}`, v);
     });
     const frame = document.getElementById('previewFrame');
     frame.srcdoc = rendered;
@@ -161,5 +162,7 @@ function closePreview() {
 }
 </script>
 @endverbatim
-@endpush
-@endsection
+<?php $__env->stopPush(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH /Users/macbook/Documents/Dtop/certchain/resources/views/admin/templates/create.blade.php ENDPATH**/ ?>
